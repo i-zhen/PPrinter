@@ -27,6 +27,8 @@ instance Pretty (Tree)
 
 iii. Define the exact data of the type:
 
+```
+
 tree                 = Node "aaa" [
                             Node "bbbbb" [
                                Node "ccc" [],
@@ -40,17 +42,21 @@ tree                 = Node "aaa" [
                               ]
                             ]
 
+```
+
 iv. Output the data by the builtin functions:
 
-pprint tree
+```
+$ pprint tree
 
-Node "aaa"
-     [Node "bbbbb"
-           [Node "ccc" [],
-            Node "dd" []],
-      Node "eee" [],
-      Node "ffff"
-           [Node "gg" [],
-            Node "hhh" [],
-            Node "ii" []]]
+$ Node "aaa"
+       [Node "bbbbb"
+             [Node "ccc" [],
+              Node "dd" []],
+        Node "eee" [],
+        Node "ffff"
+             [Node "gg" [],
+              Node "hhh" [],
+              Node "ii" []]]
+```
 
