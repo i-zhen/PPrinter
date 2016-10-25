@@ -1,12 +1,15 @@
-a) How to install.
+### How to install.
 
-For *nix operating systems:
+#### For *nix operating systems:
+
 1. Go to the directory of ./src.
 2. Using the command 'cabal configure' and then 'cabal install'
 
-For windows or other operating systems, please check the official instructions for Haskell.
+#### For windows or other operating systems:
 
-b) How to use this library.
+Please check the official instructions for Haskell.
+
+### How to use this library
 
 1. Open a new Haskell file and adding the pragma 'DeriveGeneric'
 2. Adding the line 'import Text.PPrinter'.
@@ -15,7 +18,7 @@ b) How to use this library.
 i. Define a data type with deriving mechanism at first:
 
 data Tree = Node String [Tree] deriving (Generic, Show)
-   
+
 You should add ‘deriving (Generic, Show)’ in the end, both of ‘Generic’ and ‘Show’ are necessary.
 
 ii. Define an EMPTY Pretty instance of the data type:

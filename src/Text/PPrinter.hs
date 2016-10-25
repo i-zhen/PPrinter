@@ -1,5 +1,3 @@
--- This library is also available at https://hackage.haskell.org/package/PPrinter
-
 {-# LANGUAGE DeriveGeneric, TypeOperators, FlexibleInstances, FlexibleContexts, DefaultSignatures #-}
 
 module Text.PPrinter (
