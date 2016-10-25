@@ -17,13 +17,17 @@ Please check the official instructions for Haskell.
 
 i. Define a data type with deriving mechanism at first:
 
+```
 data Tree = Node String [Tree] deriving (Generic, Show)
+```
 
 You should add ‘deriving (Generic, Show)’ in the end, both of ‘Generic’ and ‘Show’ are necessary.
 
 ii. Define an EMPTY Pretty instance of the data type:
 
+```
 instance Pretty (Tree)
+```
 
 iii. Define the exact data of the type:
 
