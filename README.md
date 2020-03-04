@@ -1,3 +1,7 @@
+### Find in Hackage as well
+
+https://hackage.haskell.org/package/PPrinter
+
 ### How to install.
 
 #### For *nix operating systems:
