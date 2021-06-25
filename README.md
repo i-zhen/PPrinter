@@ -37,18 +37,18 @@ iii. Define the exact data of the type:
 
 ```
 
-tree                 = Node "aaa" [
-                            Node "bbbbb" [
-                               Node "ccc" [],
-                               Node "dd" []
-                               ],
-                            Node "eee" [],
-                            Node "ffff" [
-                              Node "gg" [],
-                              Node "hhh" [],
-                              Node "ii" []
-                              ]
-                            ]
+tree = Node "aaa" [
+             Node "bbbbb" [
+             Node "ccc" [],
+             Node "dd" []
+        ],
+             Node "eee" [],
+             Node "ffff" [
+             Node "gg" [],
+             Node "hhh" [],
+             Node "ii" []
+         ]
+]
 
 ```
 
